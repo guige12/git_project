@@ -1,14 +1,14 @@
 package com.nnxy.model;
 /**
- * Ñ§ÉúÊµÌåÀà
- * @author ¹î¸è
- * ´´½¨Ê±¼ä£º2019/05/07
+ * å­¦ç”Ÿå®ä½“ç±»
+ * @author è¯¡æ­Œ
+ * åˆ›å»ºæ—¶é—´ï¼š2019/05/07
  * 
  */
 public class Studeng {
-             private int id;
-             private String username;
-             private String password;
+             private int id;//ID
+             private String username;//ç”¨æˆ·å
+             private String password;//å¯†ç 
              private int age;
              private int sex;
 			public Studeng(int id, String username, String password, int age, int sex) {
